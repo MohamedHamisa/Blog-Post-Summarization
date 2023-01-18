@@ -8,8 +8,8 @@ import requests
 summarizer = pipeline("summarization")
 
 # Get Blog Post from Medium
-URL = "https://towardsdatascience.com/a-bayesian-take-on-model-regularization-9356116b6457"
-URL = "https://hackernoon.com/will-the-game-stop-with-gamestop-or-is-this-just-the-beginning-2j1x32aa"
+URL = "Put URL"
+
 
 r = requests.get(URL)
 
